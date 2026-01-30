@@ -15,7 +15,7 @@ A Windows 10 domain-joined client
 
 Internal and NAT networking using VirtualBox
 
-screenshot of lab architecture / network diagram here
+![Architecture](screenshots/Architecture.png)
 
 ⚙️ Technologies Used
 
@@ -43,7 +43,9 @@ Internal network adapter for client communication
 
 This allows domain clients to access the internet while remaining isolated from the host network.
 
-📸 Add screenshot of VirtualBox network adapter settings here
+![Net Adapter config](screenshots/DC-net-config1.png)
+![Net Adapter config](screenshots/DC-net-config2.png)
+
 
 🗄️ Domain Controller Setup
 
@@ -55,7 +57,7 @@ Promoted the server to a Domain Controller
 
 Created a new domain
 
-Add screenshot of AD DS installation / domain promotion here
+![AD DS installation](screenshots/Controller_Dashboard.png)
 
 🌐 DNS and DHCP Configuration
 
@@ -65,8 +67,7 @@ DHCP was installed to assign IP addresses to domain clients
 
 A DHCP scope was created for the internal network
 
-screenshot of DHCP scope configuration here
-screenshot showing client receiving IP address here
+![DHCP Scope](screenshots/DHCP_scope.png)
 
 🔁 NAT and Internet Access
 
@@ -78,7 +79,7 @@ screenshot of RRAS / NAT configuration here
 
 Custom OUs were created to organise domain objects logically, improving manageability and reflecting real-world enterprise structure.
 
-Add screenshot of Active Directory OU structure here
+![OU Structure](screenshots/Organizational_units.png)
 
 ⚡ PowerShell Automation (Bulk User Creation)
 
@@ -92,8 +93,7 @@ Assign passwords and enable accounts
 
 This demonstrated automation and scalability in Active Directory administration.
 
-Add screenshot of PowerShell script execution here
-Add screenshot of users created in Active Directory here
+
 
 💻 Client Machine Configuration
 

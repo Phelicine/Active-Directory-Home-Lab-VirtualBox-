@@ -73,7 +73,7 @@ A DHCP scope was created for the internal network
 
 Routing and Remote Access (RRAS) was configured to enable NAT routing, allowing internal domain clients to access the internet through the Domain Controller.
 
-screenshot of RRAS / NAT configuration here
+![Routing and Remote Access](screenshots/NAT_config.png)
 
 🧑‍💻 Organisational Units (OU) Structure
 
@@ -92,8 +92,7 @@ Automatically generate over 1,000 domain user accounts
 Assign passwords and enable accounts
 
 This demonstrated automation and scalability in Active Directory administration.
-
-
+![Users created using powershell script](screenshots/script_users.png)
 
 💻 Client Machine Configuration
 

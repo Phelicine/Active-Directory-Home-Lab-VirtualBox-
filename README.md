@@ -127,3 +127,5 @@ Practical PowerShell automation skills
 
 Improved confidence with enterprise identity management
 
+Thanks to Josh Madakor's Youtube video about this project available at https://www.youtube.com/watch?v=MHsI8hJmggI
+

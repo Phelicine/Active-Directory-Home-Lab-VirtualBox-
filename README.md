@@ -5,7 +5,7 @@ This project demonstrates the setup of a Windows Active Directory home lab to si
 
 The goal was to gain hands-on experience with Active Directory, DNS, DHCP, NAT routing, and PowerShell automation in a realistic setup.
 
-🧱 Architecture Diagram
+Architecture Diagram
 
 The lab consists of:
 
@@ -17,7 +17,7 @@ Internal and NAT networking using VirtualBox
 
 ![Architecture](screenshots/Architecture.png)
 
-⚙️ Technologies Used
+# Technologies Used
 
 Oracle VirtualBox
 

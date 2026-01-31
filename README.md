@@ -115,8 +115,6 @@ Confirmed DNS resolution and DHCP leasing
 
 Tested login with multiple generated users
 
-Add screenshot of successful domain user login test here
-
 # Learning Outcomes
 
 Understanding of Active Directory architecture
@@ -127,5 +125,5 @@ Practical PowerShell automation skills
 
 Improved confidence with enterprise identity management
 
-Thanks to Josh Madakor's Youtube video about this project available at https://www.youtube.com/watch?v=MHsI8hJmggI
+Thanks to Josh Madakor's Youtube video about this project available at [Youtube video link](https://www.youtube.com/watch?v=MHsI8hJmggI)
 

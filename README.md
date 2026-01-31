@@ -104,9 +104,6 @@ Joined to the Active Directory domain
 
 Logged in using a domain user account
 
-Add screenshot of Windows 10 joined to domain here
-Add screenshot of successful domain login here
-
 # Validation & Testing
 
 Verified domain authentication

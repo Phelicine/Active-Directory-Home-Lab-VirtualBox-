@@ -127,7 +127,3 @@ Practical PowerShell automation skills
 
 Improved confidence with enterprise identity management
 
-🧹 Cost & Environment Management
-
-This lab was decommissioned after completion to avoid unnecessary resource usage.
-The environment can be recreated at any time using the documented steps.

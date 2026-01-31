@@ -5,7 +5,7 @@ This project demonstrates the setup of a Windows Active Directory home lab to si
 
 The goal was to gain hands-on experience with Active Directory, DNS, DHCP, NAT routing, and PowerShell automation in a realistic setup.
 
-Architecture Diagram
+# Architecture Diagram
 
 The lab consists of:
 
@@ -33,7 +33,7 @@ Routing and Remote Access (NAT)
 
 PowerShell
 
-🖧 Network Configuration
+# Network Configuration
 
 The Domain Controller was configured with two network interfaces:
 
@@ -47,7 +47,7 @@ This allows domain clients to access the internet while remaining isolated from 
 ![Net Adapter config](screenshots/DC-net-config2.png)
 
 
-🗄️ Domain Controller Setup
+# Domain Controller Setup
 
 On the Windows Server VM:
 
@@ -59,7 +59,7 @@ Created a new domain
 
 ![AD DS installation](screenshots/Controller_Dashboard.png)
 
-🌐 DNS and DHCP Configuration
+# DNS and DHCP Configuration
 
 DNS was automatically configured during domain setup
 
@@ -69,19 +69,19 @@ A DHCP scope was created for the internal network
 
 ![DHCP Scope](screenshots/DHCP_scope.png)
 
-🔁 NAT and Internet Access
+# NAT and Internet Access
 
 Routing and Remote Access (RRAS) was configured to enable NAT routing, allowing internal domain clients to access the internet through the Domain Controller.
 
 ![Routing and Remote Access](screenshots/NAT_config.png)
 
-🧑‍💻 Organisational Units (OU) Structure
+# Organisational Units (OU) Structure
 
 Custom OUs were created to organise domain objects logically, improving manageability and reflecting real-world enterprise structure.
 
 ![OU Structure](screenshots/Organizational_units.png)
 
-⚡ PowerShell Automation (Bulk User Creation)
+# PowerShell Automation (Bulk User Creation)
 
 A PowerShell script was used to:
 
@@ -94,7 +94,7 @@ Assign passwords and enable accounts
 This demonstrated automation and scalability in Active Directory administration.
 ![Users created using powershell script](screenshots/script_users.png)
 
-💻 Client Machine Configuration
+# Client Machine Configuration
 
 A Windows 10 VM was:
 
@@ -107,7 +107,7 @@ Logged in using a domain user account
 Add screenshot of Windows 10 joined to domain here
 Add screenshot of successful domain login here
 
-🧪 Validation & Testing
+# Validation & Testing
 
 Verified domain authentication
 
@@ -117,7 +117,7 @@ Tested login with multiple generated users
 
 Add screenshot of successful domain user login test here
 
-🎯 Learning Outcomes
+# Learning Outcomes
 
 Understanding of Active Directory architecture
 
